@@ -1,1 +1,24 @@
-
+{
+  "urls": [
+    {
+      "name": "370462132-beep专属配置",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
+    },
+    {
+      "name": "备用配置",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json"
+    }
+  ],
+  "config": {
+    "name": "370462132-beep TVBox配置",
+    "version": "1.0.0",
+    "author": "370462132-beep",
+    "repository": "https://github.com/370462132-beep/TV-box",
+    "description": "个人专属TVBox配置，支持自动更新",
+    "autoUpdate": {
+      "enable": true,
+      "checkInterval": 86400,
+      "updateUrl": "https://raw.githubusercontent.com/370462132-beep/TV-box/release/config/version.json"
+    }
+  }
+}
